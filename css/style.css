@@ -1,0 +1,58 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&family=Roboto&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62,5%;
+}
+
+header{
+    background: red;    
+    position: top;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 120px;      
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1-titulo{
+  color: antiquewhite;
+  font-size: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;    
+  padding: auto;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  background-color: white;
+  font-family: "roboto", sans-serif;  
+  min-height: 100vh;
+}
+
+.m-3 {
+  margin-left: 7rem !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.textoCantidad{
+  font-size: 22px;
+}
+
+.textoSuma{
+  font-size: 22px;
+}
